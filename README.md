@@ -3,6 +3,12 @@ This project is 2-fold:
 1. scrapes HackerNews articles and saves them to a file
 2. runs regression analysis to determine what factors an article has to be more likely to land on the front page
 
+## Run .ipynb files on your local machine using Jupyter Notebook
+1. Download .ipynb file and save to directory of your choice.
+2. From the terminal, navigate to that same directory.
+3. In terminal type command 'jupyter-notebook' to open a webpage with current directory. 
+4. Click hyperlinked text to open individual .ipynb files
+
 ## Libraries used:
 - SSL to validate client/server connection to enable scraping
 - urllib.request to make the HTTP request and save the server reqponse into a file
